@@ -179,7 +179,7 @@ merged_df[num_cols] = merged_df[num_cols].fillna(0)
 # 
 #  Save cleaned outputs
 # 
-#merged_df.to_csv("bot_processed.csv", index=False)       # tweet-level, with engineered features
+merged_df.to_csv("bot_processed.csv", index=False)       # tweet-level, with engineered features
 #twitter_df.to_csv("twitter_processed.csv", index=False)  # user-level, engineered
 #npl_df.to_csv("npl_processed.csv", index=False)          # text-only, labels mapped to 0/1
 
